@@ -1,0 +1,49 @@
+/*Demonstration of Gradient*/
+/*body{
+
+	background-image: linear-gradient(to right, #ff0000, #ff004a, #f90088, #c100c9, #002eff);
+}	*/
+
+/*Demonstration of Animation*/
+
+/*div{
+
+	border: 10px solid black;
+	background: red;
+	width: 300px;
+	height: 300px;
+}*/
+
+/*#div1:hover{
+
+	transform: scale(2);
+
+	transform: rotate(45deg);
+
+	transform: skew(10deg,20deg);
+
+	transform: translate(120px,120px);
+}*/
+
+#div1{
+
+	height: 300px;
+	width: 300px;
+	background: red;
+	position: relative;
+	animation-name: anime;
+	animation-duration:4s;
+	animation-delay:1s;
+	animation-iteration-count:100;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+@keyframes anime {
+
+	0%{ background:red; left: 0px; top: 0px; }
+	25%{ background:yellow; left: 300px; top:0px; }
+	50%{ background:blue; left: 300px; top:300px; }
+	75%{ background:green; left: 0px; top:300px; }
+	100%{ background:red; left: 0px; top:0px; }
+} 

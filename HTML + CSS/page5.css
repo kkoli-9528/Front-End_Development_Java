@@ -1,0 +1,24 @@
+#line-1{
+
+	white-space: pre;
+}
+
+#line-3{
+
+	white-space: nowrap;
+}
+
+#line-2{
+
+	white-space: pre-wrap;
+}
+
+#left-right{
+
+	direction: ltr;
+}
+
+#right-left{
+
+	direction: rtl;
+}
